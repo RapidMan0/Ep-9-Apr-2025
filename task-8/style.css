@@ -1,0 +1,27 @@
+#progressWrapper {
+    width: 100%;
+    background-color: #ccc;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  #progressBar {
+    width: 0%;
+    background-color:rgb(0, 213, 46);
+    height: 100%;
+    transition: width 0.1s linear;
+  }
+  
+  #startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #statusText {
+    margin-top: 10px;
+    font-weight: bold;
+  }
